@@ -558,6 +558,10 @@ body {
     letter-spacing: 1px;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 .heading-content span{
     color: rgb(255, 129, 57);
 }
@@ -567,4 +571,35 @@ body {
     line-height: 30px;
     color: rgba(255,255,255,0.918);
     margin: 16px 0px;
+}
+
+/* contact section ends */
+
+/* footer section starts */
+
+.footer-section{
+    background-color: rgb(4,4,4);
+    margin-top: 60px !important;
+}
+
+.social-media{
+    border-bottom: 1px solid rgb(255, 129, 57);
+}
+
+.footer-section p{
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(255,255,255,0.918);
+}
+
+.footer-section a:hover{
+    color: rgb(255, 129, 57) !important;
+}
+
+.footer-icon:hover{
+    color: rgb(255, 129, 57);
+}
+
+.copy-right{
+    border-top: 1px solid rgb(255, 129, 57);
 }
